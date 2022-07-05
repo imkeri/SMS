@@ -1,0 +1,31 @@
+
+
+.box2{
+    width: 25%;
+    position: absolute;
+    top: 20%;
+    left: 37.5%;
+    padding: 40px;
+    border-radius: 10px;
+    color:black!important;
+    background: transparent;
+    opacity: 0.6;
+    padding: 2%;
+    background:rgb(17, 211, 255);
+
+}
+.checkbox{
+    margin-top: 10px;
+    display: flex;
+}
+form input{
+    margin: 10px 0;
+    border: none;
+}
+@media screen and (max-width:1124px) {
+    
+.box2{
+    width: 40%;
+    left: 30%;
+}
+}

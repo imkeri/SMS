@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    width: 100%;
+    background-color: rgb(17, 211, 255);
+    box-shadow:0 1px 4px 0 rgb(0 0 0 / 14%);
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin-right: 0;
+
+}
+
+.logo{
+    width:100%!important;
+    margin: 8px 0px;
+    text-align: center;
+    height: 5vh;
+  
+  } 
+  .border_div{
+    border-bottom: 1px solid black;
+    width: 90%;
+  }
+.navbar_links {
+    
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    position: absolute;
+    top: 14%;
+    left: 0%;
+}
+
+.navbar_links a {
+   text-align: left;
+    padding:10px 55px 10px 5px;
+    text-decoration: none;
+    color: #4D4D4D;
+    font-size: 20px;
+    margin: 10px 10px;
+
+} 
+
+.mobile_menu_icon {
+    display: none;
+}
+
+.navbar_links a:hover{
+    color: #009DC4;
+    border-radius: 5px;
+    /* background-color: #9c27b0; */
+    /* transition: all .3s linear; */
+}
+.navbar a.active {
+    font-weight: 700;
+    color: #ffffff !important;
+
+}
+
+/* @media screen and (max-width:1096px) {
+    .logo {
+        display: flex;
+        position: absolute;
+        top: 10px;
+    }
+     .navbar{
+        display: none;
+     }
+    .navbar_links {
+        display: none;
+    }
+
+    .nav_links_responsive {
+        position: absolute;
+        display: block;
+        list-style: none;
+        left: 0;
+        top: 85px;
+        background-color: rgb(215, 242, 250);
+        z-index: 1;
+        opacity: 0.9;
+        width: 100%;
+        transition: all 1.6s ease;
+
+    }
+
+    .navbar_links a,
+    .nav_links_responsive a {
+        text-decoration: none;
+        text-align: center;
+        padding: 32px;
+        width: 100%;
+        color: black;
+        transition: all 0.5s;
+ }
+
+    .mobile_menu_icon {
+        display: block;
+        background-color: #009DC4;
+        padding: 5px 10px;
+        border-radius: 5px;
+        position: absolute;
+        font-size: 30px;
+        border: none;
+        top: 10px;
+        right: 25px;
+    }
+}
+
+@media screen  and (max-width:768px){
+    .logo{
+      width:15%!important;
+      margin: auto 0px;
+      margin-left: 20px;
+    
+    }
+  } */

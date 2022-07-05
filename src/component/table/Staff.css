@@ -1,0 +1,18 @@
+.view_staff h6{
+  font-size: 20px;
+  padding: 0px 10px;
+}
+.view_staff p{
+    font-size: 20px;
+    padding: 0px 10px;
+  }
+
+  .updateform label{
+    margin: 0;
+  }
+  .updateform input{
+    padding: 0px 1px;
+    margin: 2px;
+    border: 1px solid;
+}
+

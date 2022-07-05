@@ -1,0 +1,81 @@
+.main_page{
+    width: 100%;
+    display: flex;
+}
+.sidebar{
+    width: 25%;
+}
+.page{
+    width: 100%;
+}
+.card-header-info{
+height: 100px;  
+}
+
+
+.card{
+     box-shadow:0 1px 4px 0 rgb(0 0 0 / 14%);
+     background-color: rgb(255, 255, 255)!important;
+     position: relative;
+    
+}
+.card_text{
+    width: 30%;
+    margin-left: 70%;    
+}
+.card_text p{
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.card_text h3{
+    margin-top: 0;
+    padding-top: 0;
+}
+.card_icon{
+    position: absolute;
+    top: -20%;
+    width: 25%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow:0 1px 4px 0 rgb(0 0 0 / 14%);
+}
+.school{
+   font-size: 300%!important;
+   color: white!important;
+}
+.log_out_div{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: end;
+    background-color: #fff;
+    box-shadow:0 1px 4px 0 rgb(0 0 0 / 14%);
+    margin-bottom: 5%;
+
+}
+.log_out{
+    
+    background-color:rgb(17, 211, 255);
+    border: none;
+    padding: 5px 15px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.insert{
+    position: absolute;
+    top: 12%;
+    right: 5%;
+    z-index: 2;
+    padding: 5px 10px;
+    border-radius: 10px;
+    background-color:rgb(17, 211, 255);
+    color:black;
+    border: none;
+}
+.insert:hover{
+    background-color: rgb(178, 241, 254);
+    
+}
